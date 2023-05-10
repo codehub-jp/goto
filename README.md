@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+このアプリは「〇〇に行きたい」「〇〇に参加したい」……「でも1人では……」という私の思いをベースに作成してみました。<br>
+例えばなんですが「ディズニーの40周年のパレードを見に行きたい！」「でも、1人で行くのは寂しいな。誰かとこのパレードを楽しみたい」と思いついたら、このアプリでポチポチと行ける日時や「パレードを見たい」という目的を書いて投稿することで、同じように「私もディズニーの４０周年パレードに行きたい！」という人とマッチングするアプリサービスです。<br>
+私は1人でも大勢でも出かけることが好きなのですが、なかなかに趣味で行きたい場所に一緒に行ってくれる人がおらず、行きたいとこに行けないという思いを抱えることが多いです。<br>
+行きたいところに行く、参加したい催しに参加する、そんなことが気軽にできればいいなと考えています。
