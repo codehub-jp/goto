@@ -84,7 +84,7 @@ test:
 #
 production:
   <<: *default
-  database: database: production_6d29
+  database: production_6d29
   username: akane3110
   password: <%= ENV["DATABASE_PASSWORD"] %>
   host: dpg-chdgguqk728nnn6tb3k0-a.render.com
