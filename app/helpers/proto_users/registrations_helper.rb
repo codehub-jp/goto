@@ -1,0 +1,2 @@
+module ProtoUsers::RegistrationsHelper
+end
