@@ -1,11 +1,28 @@
 Rails.application.routes.draw do
-  devise_for :users
-  devise_for :admins
-  devise_for :proto_users
+  root to: 'toppages#index'
 
-  root 'toppages#index' #root to:'toppages#indexではないらしい。'
+#TestUser
+  # ユーザー登録
+  get '/signup', to: 'test_users#new'
+  post '/signup', to: 'test_users#create'
 
-  ActiveAdmin.routes(self)
+  # ログイン・ログアウト
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
+
+  # パスワードリセット
+  get '/password_resets/new', to: 'password_resets#new'
+  post '/password_resets', to: 'password_resets#create'
+  get '/password_resets/:id/edit', to: 'password_resets#edit', as: 'edit_password_reset'
+  patch '/password_resets/:id', to: 'password_resets#update'
+
+  # ユーザー退会
+  delete '/test_users/:id', to: 'test_users#destroy', as: 'test_user'
+
+  # index
+  #get '/test_users', to: 'test_users#index'
+  resources :test_users
 
 end
 
