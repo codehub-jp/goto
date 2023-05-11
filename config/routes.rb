@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
   devise_for :admins
   devise_for :users
-  devise_for :proto_users, controllers: {
-    registrations: 'proto_users/registrations',
-    passwords: 'proto_users/passwords'
-  }
+  devise_for :proto_users
 
   root 'toppages#index' #root to:'toppages#indexではないらしい。'
 
