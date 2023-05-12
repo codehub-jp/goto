@@ -87,5 +87,5 @@ production:
   database: production_6d29
   username: akane3110
   password: <%= ENV["DATABASE_PASSWORD"] %>
-  host: dpg-chdgguqk728nnn6tb3k0-a.render.com
+  host: dpg-chdgguqk728nnn6tb3k0-a #dpg-chdgguqk728nnn6tb3k0-a.render.com
   port: 5432
